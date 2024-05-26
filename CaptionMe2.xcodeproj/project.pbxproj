@@ -10,9 +10,14 @@
 		B56F01EB2C01CCC700156CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F01EA2C01CCC700156CBC /* AppDelegate.swift */; };
 		B56F01ED2C01CCC700156CBC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B56F01EC2C01CCC700156CBC /* art.scnassets */; };
 		B56F01EF2C01CCC700156CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F01EE2C01CCC700156CBC /* ViewController.swift */; };
-		B56F01F22C01CCC700156CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F01F02C01CCC700156CBC /* Main.storyboard */; };
 		B56F01F42C01CCC900156CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56F01F32C01CCC900156CBC /* Assets.xcassets */; };
 		B56F01F72C01CCC900156CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F01F52C01CCC900156CBC /* LaunchScreen.storyboard */; };
+		B56F01FE2C01CD1300156CBC /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F01FD2C01CD1300156CBC /* SpeechRecognizer.swift */; };
+		B56F02002C01CD2600156CBC /* ARSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F01FF2C01CD2600156CBC /* ARSession.swift */; };
+		B56F02022C01EA3700156CBC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F02012C01EA3700156CBC /* CustomButton.swift */; };
+		B56F02042C01F2CD00156CBC /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F02032C01F2CD00156CBC /* IntroViewController.swift */; };
+		B56F02062C0216BA00156CBC /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F02052C0216BA00156CBC /* WinViewController.swift */; };
+		B56F02082C02196500156CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F02072C02196500156CBC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +25,14 @@
 		B56F01EA2C01CCC700156CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B56F01EC2C01CCC700156CBC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		B56F01EE2C01CCC700156CBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B56F01F12C01CCC700156CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B56F01F32C01CCC900156CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B56F01F62C01CCC900156CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B56F01FD2C01CD1300156CBC /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		B56F01FF2C01CD2600156CBC /* ARSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSession.swift; sourceTree = "<group>"; };
+		B56F02012C01EA3700156CBC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B56F02032C01F2CD00156CBC /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		B56F02052C0216BA00156CBC /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
+		B56F02072C02196500156CBC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +65,17 @@
 		B56F01E92C01CCC700156CBC /* CaptionMe2 */ = {
 			isa = PBXGroup;
 			children = (
+				B56F02052C0216BA00156CBC /* WinViewController.swift */,
 				B56F01EA2C01CCC700156CBC /* AppDelegate.swift */,
 				B56F01EC2C01CCC700156CBC /* art.scnassets */,
 				B56F01EE2C01CCC700156CBC /* ViewController.swift */,
-				B56F01F02C01CCC700156CBC /* Main.storyboard */,
+				B56F02032C01F2CD00156CBC /* IntroViewController.swift */,
+				B56F02012C01EA3700156CBC /* CustomButton.swift */,
+				B56F02072C02196500156CBC /* Main.storyboard */,
 				B56F01F32C01CCC900156CBC /* Assets.xcassets */,
 				B56F01F52C01CCC900156CBC /* LaunchScreen.storyboard */,
+				B56F01FD2C01CD1300156CBC /* SpeechRecognizer.swift */,
+				B56F01FF2C01CD2600156CBC /* ARSession.swift */,
 			);
 			path = CaptionMe2;
 			sourceTree = "<group>";
@@ -126,7 +141,7 @@
 				B56F01ED2C01CCC700156CBC /* art.scnassets in Resources */,
 				B56F01F72C01CCC900156CBC /* LaunchScreen.storyboard in Resources */,
 				B56F01F42C01CCC900156CBC /* Assets.xcassets in Resources */,
-				B56F01F22C01CCC700156CBC /* Main.storyboard in Resources */,
+				B56F02082C02196500156CBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +153,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56F01EF2C01CCC700156CBC /* ViewController.swift in Sources */,
+				B56F02002C01CD2600156CBC /* ARSession.swift in Sources */,
 				B56F01EB2C01CCC700156CBC /* AppDelegate.swift in Sources */,
+				B56F02042C01F2CD00156CBC /* IntroViewController.swift in Sources */,
+				B56F02062C0216BA00156CBC /* WinViewController.swift in Sources */,
+				B56F01FE2C01CD1300156CBC /* SpeechRecognizer.swift in Sources */,
+				B56F02022C01EA3700156CBC /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B56F01F02C01CCC700156CBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B56F01F12C01CCC700156CBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B56F01F52C01CCC900156CBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +304,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VNG2A57GP5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to track your face and display AR content.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To record your answer";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To record your answer too";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,6 +314,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +337,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VNG2A57GP5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to track your face and display AR content.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To record your answer";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To record your answer too";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,6 +347,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

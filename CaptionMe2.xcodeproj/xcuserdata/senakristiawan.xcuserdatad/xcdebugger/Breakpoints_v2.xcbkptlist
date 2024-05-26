@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8DCE48BC-EAD3-49C7-BF07-3838D3B5D1D4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8166C8A-A17A-44C5-85F3-EED87D895D16"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptionMe2/ARSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "renderer(_:nodeFor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E1687F2-0BFD-4543-B88F-F40365AB5CA7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptionMe2/SpeechRecognizer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "startRecording()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CF75CE6-8A20-4601-BE39-79861B4A8B4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptionMe2/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "setupView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8CF75CE6-8A20-4601-BE39-79861B4A8B4B - bafd98e68168e560"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaptionMe2.ViewController.setupView() -&gt; ()"
+                  moduleName = "CaptionMe2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/senakristiawan/Documents/Apple/CaptionMe2/CaptionMe2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "8CF75CE6-8A20-4601-BE39-79861B4A8B4B - bafd98e68168e585"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaptionMe2.ViewController.setupView() -&gt; ()"
+                  moduleName = "CaptionMe2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/senakristiawan/Documents/Apple/CaptionMe2/CaptionMe2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "8CF75CE6-8A20-4601-BE39-79861B4A8B4B - bafd98e68168e64b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaptionMe2.ViewController.setupView() -&gt; ()"
+                  moduleName = "CaptionMe2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/senakristiawan/Documents/Apple/CaptionMe2/CaptionMe2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "8CF75CE6-8A20-4601-BE39-79861B4A8B4B - bafd98e68168e5e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaptionMe2.ViewController.setupView() -&gt; ()"
+                  moduleName = "CaptionMe2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/senakristiawan/Documents/Apple/CaptionMe2/CaptionMe2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  uuid = "8CF75CE6-8A20-4601-BE39-79861B4A8B4B - bafd98e68168e668"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaptionMe2.ViewController.setupView() -&gt; ()"
+                  moduleName = "CaptionMe2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/senakristiawan/Documents/Apple/CaptionMe2/CaptionMe2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "588">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD07B62C-2855-4A6A-B4C4-474824F63EBE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptionMe2/ARSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "contentNode"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
