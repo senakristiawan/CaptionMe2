@@ -4,10 +4,13 @@
 //
 //  Created by Sena Kristiawan on 20/05/24.
 //
+// yg ini ga kepake
+// diapus aja mas -Mas Rama
 
 import SceneKit
 import ARKit
 import UIKit
+//import RealityKit
 
 class ARSession: NSObject, ARSCNViewDelegate{
     var textNode: SCNText!

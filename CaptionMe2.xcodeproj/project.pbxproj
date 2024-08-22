@@ -8,31 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		B56F01EB2C01CCC700156CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F01EA2C01CCC700156CBC /* AppDelegate.swift */; };
-		B56F01ED2C01CCC700156CBC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B56F01EC2C01CCC700156CBC /* art.scnassets */; };
 		B56F01EF2C01CCC700156CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F01EE2C01CCC700156CBC /* ViewController.swift */; };
 		B56F01F42C01CCC900156CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56F01F32C01CCC900156CBC /* Assets.xcassets */; };
 		B56F01F72C01CCC900156CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F01F52C01CCC900156CBC /* LaunchScreen.storyboard */; };
-		B56F01FE2C01CD1300156CBC /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F01FD2C01CD1300156CBC /* SpeechRecognizer.swift */; };
-		B56F02002C01CD2600156CBC /* ARSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F01FF2C01CD2600156CBC /* ARSession.swift */; };
-		B56F02022C01EA3700156CBC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F02012C01EA3700156CBC /* CustomButton.swift */; };
 		B56F02042C01F2CD00156CBC /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F02032C01F2CD00156CBC /* IntroViewController.swift */; };
-		B56F02062C0216BA00156CBC /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F02052C0216BA00156CBC /* WinViewController.swift */; };
 		B56F02082C02196500156CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56F02072C02196500156CBC /* Main.storyboard */; };
+		B59AA9C72C043D6A007AD6DD /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59AA9C62C043D6A007AD6DD /* WinViewController.swift */; };
+		B59AA9CE2C043DFE007AD6DD /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59AA9CB2C043D96007AD6DD /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B56F01E72C01CCC700156CBC /* CaptionMe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptionMe2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56F01EA2C01CCC700156CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B56F01EC2C01CCC700156CBC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		B56F01EE2C01CCC700156CBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B56F01F32C01CCC900156CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B56F01F62C01CCC900156CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B56F01FD2C01CD1300156CBC /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
-		B56F01FF2C01CD2600156CBC /* ARSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSession.swift; sourceTree = "<group>"; };
-		B56F02012C01EA3700156CBC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B56F02032C01F2CD00156CBC /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
-		B56F02052C0216BA00156CBC /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
 		B56F02072C02196500156CBC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B59AA9C62C043D6A007AD6DD /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
+		B59AA9CB2C043D96007AD6DD /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		B59AA9CC2C043D96007AD6DD /* ARSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,19 +60,41 @@
 		B56F01E92C01CCC700156CBC /* CaptionMe2 */ = {
 			isa = PBXGroup;
 			children = (
-				B56F02052C0216BA00156CBC /* WinViewController.swift */,
-				B56F01EA2C01CCC700156CBC /* AppDelegate.swift */,
-				B56F01EC2C01CCC700156CBC /* art.scnassets */,
+				B59AA9C82C043D78007AD6DD /* View Controller */,
+				B59AA9CA2C043D96007AD6DD /* Service */,
+				B59AA9CD2C043DA4007AD6DD /* Asset StoryBoard */,
+			);
+			path = CaptionMe2;
+			sourceTree = "<group>";
+		};
+		B59AA9C82C043D78007AD6DD /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
 				B56F01EE2C01CCC700156CBC /* ViewController.swift */,
 				B56F02032C01F2CD00156CBC /* IntroViewController.swift */,
-				B56F02012C01EA3700156CBC /* CustomButton.swift */,
+				B59AA9C62C043D6A007AD6DD /* WinViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		B59AA9CA2C043D96007AD6DD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B59AA9CB2C043D96007AD6DD /* SpeechRecognizer.swift */,
+				B56F01EA2C01CCC700156CBC /* AppDelegate.swift */,
+				B59AA9CC2C043D96007AD6DD /* ARSession.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B59AA9CD2C043DA4007AD6DD /* Asset StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
 				B56F02072C02196500156CBC /* Main.storyboard */,
 				B56F01F32C01CCC900156CBC /* Assets.xcassets */,
 				B56F01F52C01CCC900156CBC /* LaunchScreen.storyboard */,
-				B56F01FD2C01CD1300156CBC /* SpeechRecognizer.swift */,
-				B56F01FF2C01CD2600156CBC /* ARSession.swift */,
 			);
-			path = CaptionMe2;
+			path = "Asset StoryBoard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +155,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56F01ED2C01CCC700156CBC /* art.scnassets in Resources */,
 				B56F01F72C01CCC900156CBC /* LaunchScreen.storyboard in Resources */,
 				B56F01F42C01CCC900156CBC /* Assets.xcassets in Resources */,
 				B56F02082C02196500156CBC /* Main.storyboard in Resources */,
@@ -152,13 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59AA9CE2C043DFE007AD6DD /* SpeechRecognizer.swift in Sources */,
 				B56F01EF2C01CCC700156CBC /* ViewController.swift in Sources */,
-				B56F02002C01CD2600156CBC /* ARSession.swift in Sources */,
 				B56F01EB2C01CCC700156CBC /* AppDelegate.swift in Sources */,
+				B59AA9C72C043D6A007AD6DD /* WinViewController.swift in Sources */,
 				B56F02042C01F2CD00156CBC /* IntroViewController.swift in Sources */,
-				B56F02062C0216BA00156CBC /* WinViewController.swift in Sources */,
-				B56F01FE2C01CD1300156CBC /* SpeechRecognizer.swift in Sources */,
-				B56F02022C01EA3700156CBC /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

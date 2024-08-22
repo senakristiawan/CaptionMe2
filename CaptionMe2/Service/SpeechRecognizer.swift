@@ -61,10 +61,14 @@ extension SpeechRecognizer{
                 return
             }
             if let result = result {
+                
+                //TODO: bisa bikin function check transcription buat  ngecek bener apa engga
                 let transcription = result.bestTranscription.formattedString
                     print("Transcription : \(transcription)")
     //                self.transcriptOutputLabel.text = transcription
                     self.AR?.updateText(text: transcription)
+                
+                //TODO: Perbanyak soal dan jawabannya
                 if transcription == "Indonesia"{
                         let storyboard = UIStoryboard(name: "Main", bundle: nil)
                         let viewController = storyboard.instantiateViewController(withIdentifier: "WinViewController") as! WinViewController

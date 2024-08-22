@@ -18,6 +18,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // TODO: - clean the code or kalau misalkan msh dipake bsa dipindahin dulu biar ga numpuk numpuk, oke bang terima kasih2
 //        sceneView.delegate = self
 //        sceneView.session.delegate = self
 //        sceneView.automaticallyUpdatesLighting = true
@@ -66,7 +67,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate{
         resetTracking()
     }
     
-    private func session(_ session: ARSession, didFailWithError error: Error) {
+    internal func session(_ session: ARSession, didFailWithError error: Error) {
         guard error is ARError else { return }
         
         let errorWithInfo = error as NSError

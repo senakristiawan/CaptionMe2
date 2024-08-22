@@ -6,7 +6,7 @@ class IntroViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor(red: 246/255, green: 255/255, blue: 189/255, alpha: 1)
-        
+        //TODO: - clean this code
 //        let startButton = UIButton(type: .system)
 //        startButton.setTitle("Start", for: .normal)
 //        startButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 24)
